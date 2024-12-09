@@ -19,13 +19,25 @@ h2{
     color: rgb(31, 0, 60);
 }
 
-img{
+h3{/*Week 4 - Input changes*/
+    font-size: 15px;
+    color: rgb(51, 38, 54);
+}
+
+#buddy { /*Week 4 - Input changes*/
+    width: auto;
+    height: 95px;
+}
+
+#heart { /*Orignally img. 
+    Added the id attribute of two images in order to separate the css style of each other
+    (The music buddy and the heart picture)*/
     display: block;
-    margin-bottom: 50px;
+    margin-bottom: 55px;
     margin-left: auto;
     margin-right: auto;
-    width: 250px;
-    height: 250px;
+    width: auto;
+    height: 150px;
 }
 
 p{

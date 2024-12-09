@@ -10,13 +10,18 @@
 <body>
     <h1>You unlocked the hidden message!</h1>
     <h2>The message you unlocked was...</h2>
-    <br>
-    <br>
-    <img src="Heart.png"/>
+    <img src="Heart.png" id="heart"/>
     <p>No matter what happens around you, you are always valid and loved
         <br>
         <br>
         Cherish and Love yourself
     </p>
+    <!--YenLinh Nguyen (12/8/24)-->
+    <!--It is possible to include background audio for strings.html, however I'm unsure if adding the image that plays audio
+    after clicking on it will change the margin of the container element-->
+    <!--Just in case, the background audio will be in the messages.html file-->
+    <h3>Click me to play music! Click me again to stop/pause the music!</h3><!--Week 4 - Audio Input changes-->
+    <img src="MusicBuddy.png" id="buddy" onclick="playAudio()">
+    <script src="audioscript.js"></script>
 </body>
 </html>
